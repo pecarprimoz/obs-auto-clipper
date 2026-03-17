@@ -7,6 +7,7 @@ __pycache__/
 !examples/
 !examples/**/
 !examples/*.mkv
+!examples/*.mp4
 !examples/*_auto/
 !examples/*_auto/*.mp4
 !examples/*_auto/*.txt

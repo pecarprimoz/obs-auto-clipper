@@ -90,9 +90,12 @@ For an input like `my_session.mkv`, the script creates:
 
 The repo includes a small sample recording in `examples/` so you can see the shape of the workflow:
 
-- original recording: `examples/clip_it_test.mkv`
-- duration: `103.217s`
-- size: `83.86 MB`
+- raw original recording: `examples/clip_it_test.mkv`
+  - duration: `103.217s`
+  - size: `83.86 MB`
+- embeddable preview of the original: `examples/clip_it_test.mp4`
+  - duration: `103.166s`
+  - size: `79.64 MB`
 
 Current produced clips from that sample:
 
@@ -105,12 +108,26 @@ Current produced clips from that sample:
 
 If you add `--discord-compress`, the script re-encodes the produced clips to stay under `9.8 MB` for sharing on Discord free uploads.
 
+## Video Preview
+
+Original sample preview:
+
+examples/clip_it_test.mp4
+
+Produced clip 1:
+
+examples/clip_it_test_auto/01_marker_00-00-20_800.mp4
+
+Produced clip 2:
+
+examples/clip_it_test_auto/02_marker_00-01-34_850.mp4
+
 ## Notes
 
 - This is a `v1` loudness-based detector, not speech recognition.
 - Long sessions are fine; the script processes audio linearly and does not load the full video into memory.
 - Detection quality depends mostly on having a clean isolated mic track.
-- Media files are ignored by git by default in this repo layout. If you want to publish sample recordings, use Git LFS or adjust `.gitignore`.
+- The sample media inside `examples/` is tracked. Other recordings and generated media remain ignored by default.
 
 ## Example Layout
 
