@@ -110,17 +110,19 @@ If you add `--discord-compress`, the script re-encodes the produced clips to sta
 
 ## Video Preview
 
+GitHub is not rendering inline video players in this README, so these previews are clickable thumbnails that open the actual video files.
+
 Original sample preview:
 
-examples/clip_it_test.mp4
+[![Original sample preview](examples/previews/original.jpg)](examples/clip_it_test.mp4)
 
 Produced clip 1:
 
-examples/clip_it_test_auto/01_marker_00-00-20_800.mp4
+[![Produced clip 1](examples/previews/clip_01.jpg)](examples/clip_it_test_auto/01_marker_00-00-20_800.mp4)
 
 Produced clip 2:
 
-examples/clip_it_test_auto/02_marker_00-01-34_850.mp4
+[![Produced clip 2](examples/previews/clip_02.jpg)](examples/clip_it_test_auto/02_marker_00-01-34_850.mp4)
 
 ## Notes
 
