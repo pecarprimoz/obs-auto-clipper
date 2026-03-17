@@ -4,4 +4,10 @@ __pycache__/
 *.mkv
 *.mp4
 *_auto/
-
+!examples/
+!examples/**/
+!examples/*.mkv
+!examples/*_auto/
+!examples/*_auto/*.mp4
+!examples/*_auto/*.txt
+!examples/.gitkeep

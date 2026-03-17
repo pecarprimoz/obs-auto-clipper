@@ -1,0 +1,12 @@
+Input: clip_it_test.mkv
+Mic track: Track2
+Lookback: 12s
+Postroll: 5s
+Discord size limit enabled: no
+Baseline RMS: -51.63 dB
+RMS threshold: -17.57 dB
+Peak gate: -12.67 dB
+Detector: top 0.5% windows, min score 6.0
+
+01. marker 00:00:20.800 | clip 00:00:08.800 -> 00:00:25.800 | shout 00:00:20.700 -> 00:00:21.300 | rms -13.91 dB | peak -3.07 dB | score 9.20 | file 01_marker_00-00-20_800.mp4 | size 29.68 MB | discord no
+02. marker 00:01:34.850 | clip 00:01:22.850 -> 00:01:39.850 | shout 00:01:34.650 -> 00:01:35.400 | rms -16.91 dB | peak -7.68 dB | score 8.50 | file 02_marker_00-01-34_850.mp4 | size 27.10 MB | discord no
